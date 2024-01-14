@@ -6,7 +6,6 @@ import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import Favorites from "./components/Favorites";
 import Model from "./components/Model";
-
 const anime = [
   {
     id: "1",
