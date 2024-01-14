@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+
+  .logo {
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  nav {
+    display: flex;
+
+    p {
+      text-transform: uppercase;
+      margin-right: 15px;
+      cursor: pointer;
+    }
+
+    .user {
+      cursor: pointer;
+    }
+  }
+}

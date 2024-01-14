@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  justify-content: center;
+
+  .container {
+    width: 1000px;
+  }
+}
+
+.Entrance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+
+  h2 {
+    margin: 30px;
+  }
+  .userLog {
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+
+    input {
+      margin-bottom: 30px;
+    }
+  }
+}

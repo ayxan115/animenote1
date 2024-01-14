@@ -1,0 +1,19 @@
+.anime_card {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 200px;
+  img {
+    width: 200px;
+  }
+  .anime_down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    .btn {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
